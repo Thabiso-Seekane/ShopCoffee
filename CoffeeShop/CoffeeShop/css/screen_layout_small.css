@@ -1,0 +1,471 @@
+@charset "UTF-8";
+
+body{
+	max-width: 500px;
+}
+
+header{
+	height: 250px;
+	background-image: url(../images/home_banner_small.jpg);
+}
+
+header a.logo{
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	background: url(../images/small_logo_1.png) no-repeat 0px 0px;
+}
+
+nav{
+	display: none;
+}
+
+.social_networks{
+	display: none;
+}
+
+#middle{
+	max-width: 500px;
+}
+
+div.nav_two{
+	display: block;
+}
+
+.home.block.one{
+	display: none;
+}
+
+.promo{
+	height: 170px;
+	width: 100%;
+}
+
+.promo.one{
+	background: url(../images/specials_medium_1.jpg) no-repeat 35px center;
+}
+
+.promo.two{
+	background: url(../images/specials_medium_2.jpg) no-repeat 35px center;
+}
+
+.promo.three{
+	background: url(../images/specials_medium_3.jpg) no-repeat 35px center;
+}
+
+.home.block.two h2{
+	text-align: center;
+}
+
+.home.block.two{
+	margin-left: 0px;
+	position: center;
+	background-image: none;
+	height: 85%;
+	background-color: rgba(0,0,0,.4);
+	margin-top: 3px;
+}
+
+
+.contact_container{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.the_team{
+	width: 100%;
+	float: left;
+	margin-top: 0px;
+}
+
+.team{
+	margin-bottom: 30px;
+}
+
+.team h3{
+	padding: 13px 0 0 80px;
+}
+
+.contact h3{
+	line-height: 1.2em;
+	padding: 7px 0 0 35px;
+}
+
+.contact{
+	margin: 25px 0;	
+}
+
+.contact.three h3{
+	padding-top: 1px;
+}
+
+.cava{
+	width: 250px;
+	margin: 0 auto;
+}
+
+.cava h2{
+	text-align: center;
+}
+
+footer{
+	background-image: url(../images/block_20.png);
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: 0px 20px;
+}
+
+.nav_two{
+	background: url(../images/navigation_button.png) no-repeat right 0px;
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+
+
+ul li ul li{
+	display: none;
+	
+}
+
+ul li:hover ul li{
+	display: block;
+	float: right;
+	background-color: rgba(0,0,0,.6);
+}
+
+a.menu{
+	background: url(../images/navigation_button.png);
+	height: 40px;
+	width: 40px;
+}
+
+ul li ul li a{
+	float: left;
+	padding: 10px 10px 10px 0;
+	border-top: 2px solid #cec02a;
+	text-decoration: none;
+	display: block;
+	width: 500px;
+	text-align: right;
+	font-weight: bold;
+	
+}
+
+ul li ul li a:hover{
+	background-color: rgba(0,0,0,.7);
+}
+
+
+
+ul li{
+	height: 39px;
+	list-style: none;
+	width: 500px;
+	display: block;
+	float: right;
+	margin-right: 0px;
+}
+
+ul{
+	margin-top: 11.5px;
+}
+
+.home.block.three{
+	display: none;
+}
+
+
+
+
+
+
+
+/*ABOUT US CODE */
+
+header.about_header{
+	background: url(../images/about_banner_small.jpg) no-repeat center 0px;
+}
+
+.about.block.one{
+	background-image: none;
+	background-color: rgba(0,0,0,.4);
+	margin: 3px 0;
+	padding: 10px 0;
+}
+
+.about.block.two{
+	display: none;
+}
+
+div.about.block.one article{
+	width: 96%;
+	margin: 0 20px;
+}
+
+.about_team h2{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*SERVICES CODE*/
+
+header.services_header{
+	background: url(../images/services_banner_small.jpg) no-repeat center 0px;
+}
+
+.services.block.one{
+	padding-top: 10px;
+}
+
+.services.block.one h2{
+	text-align: center;
+}
+
+.services_image.one{
+	background: url(../images/services_medium_1.jpg) no-repeat 10px 0px;
+	height: 450px;
+	border-bottom: 3px solid white;
+	padding-bottom: 10px;
+}
+
+.services_image.two{
+	background: url(../images/services_medium_2.jpg) no-repeat 10px 0px;
+	height: 450px;
+	border-bottom: 3px solid white;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.services_image.three{
+	background: url(../images/services_medium_3.jpg) no-repeat 10px 0px;
+	height: 450px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.services_content h3{
+	padding: 160px 0 0px 10px;
+	margin: 2px 0;
+}
+
+.services_content p{
+	padding:5px 10px 0 10px;
+	width: 96%;
+}
+
+.services.block.one{
+	background-image: none;
+	background-color: rgba(0,0,0,.4);
+	padding-bottom: 5px;
+	margin: 3px 0;
+	height: auto;
+}
+
+.services.block.two{
+	display: none;
+}
+
+
+
+
+
+
+/*SPECIALS CODE*/
+
+header.specials_header{
+	background: url(../images/specials_banner_small.jpg) no-repeat center 0px;
+}
+
+.specials.block.one{
+	background-image: none;
+	padding: 10px 0 0px 0;
+	background-color: rgba(0,0,0,.4);
+	margin: 3px 0;
+	height: 600px;
+}
+
+.special_image.one{
+	background: url(../images/specials_medium_1.jpg) no-repeat center 0px;
+}
+
+.special_image.two{
+	background: url(../images/specials_medium_2.jpg) no-repeat center 0px;
+}
+
+.special_image.three{
+	background: url(../images/specials_medium_3.jpg) no-repeat center 0px;
+}
+
+.special_image{
+	width: 100%;
+	height: 200px;
+}
+
+.special_image:hover{
+	background-position: center 0px;;
+}
+
+.special_image h3{
+	text-align: center;
+	padding-top: 140px;
+}
+
+.specials.block.one h2{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/*CONTACT US PAGE*/
+
+header.contact_header{
+	background: url(../images/contact_banner_small.jpg) no-repeat center 0px;
+}
+
+.contact-us.block.one{
+	background-image: none;
+	height: 330px;
+	padding: 10px 0;
+	background-color: rgba(0,0,0,.4);
+	margin-top: 3px;
+}
+
+.contact-us.block.two{
+	background-image: none;
+	padding-top: 30px;
+	margin: 3px 0;
+	background-color: rgba(0,0,0,.4);
+	height: 650px;
+}
+
+.textbox input{
+	background-color: rgba(225,225,225,.0);
+	border: 2px solid white;
+	border-radius: 6px;
+	padding-left: 5px;
+	color: white;
+}
+
+.textbox input.name{
+	height: 30px;
+	width: 90%;
+	float: left;
+	margin-left: 8px;
+}
+
+.textbox input.email{
+	height: 30px;
+	width: 90%;
+	margin-top: 15px;
+	
+}
+
+textarea{
+	background-color: rgba(225,225,225,.0);
+	border: 2px solid white;
+	border-radius: 6px;
+	height: 100px;
+	width: 90%;
+	margin: 20px 0 0 8px;
+	padding: 5px 0 0 5px;
+	color: white;
+	
+}
+
+.button input{
+	border: 1px solid white;
+	border-radius: 2px;
+	height: 30px;
+	width: 90px;
+	float: right;
+	margin-right: 12px;
+	color: #cec02a;
+	background-color: #ffffff;
+}
+
+.contact-us.block.one h2{
+	text-align: center;
+}
+
+.contact-us.block.one h3{
+	text-align: center;
+}
+
+.location{
+	width: 100%;
+}
+
+.location h3{
+	padding-bottom: 10px;
+}
+
+.location button{
+	text-align: center;
+	background-color: #ffffff;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 4px;
+	width: 90px;
+	margin-right: 110px;
+}
+
+.location button a{
+	text-decoration: none;
+}
+
+.location button a:hover{
+	color: cec02a;
+}
+
+.contact-us.block.two h3{
+	text-align: center;
+}
+
+.location_image{
+	background: url(../images/map_medium.jpg) no-repeat center 0px;
+	height: 160px;
+	padding-bottom: 10px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

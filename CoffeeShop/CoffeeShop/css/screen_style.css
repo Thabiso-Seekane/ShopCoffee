@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	line-height: 1.5em;
+	font-family: Arial;
+	font-size: 14px;
+	background-color:#b45b2a;
+	background-position: fixed;
+}
+
+nav{
+	position: absolute;
+	left: 410px;
+	top: 270px;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	padding: 0px 15px;
+	margin: 0px;
+	display: block;
+	float: left;
+	border-left: 2px solid #b45b2a;
+	line-height: 1em;
+	font-weight: bold;
+}
+
+nav a.home_link{
+	border-left: none;
+}
+
+header nav a:hover, header nav a:active, header nav .active a:link, header nav .active a:visited{
+	color: #cec02a;
+}
+
+.page{
+	max-width: 1366px;
+	margin: 0px auto;
+	position: relative;
+	background-color: #b45b2a;
+	height: auto;
+}
+
+h2{
+	font-size: 1em;
+	color: #cec02a;
+	margin: 0 0 .5em 0;
+}
+
+h3{
+	font-size: .9em;
+}
+
+p{
+	margin: 0 0 .75em 0;
+}
+
+a{
+	color: #cec02a;
+}
+
+a:hover{
+	color: #ffffff;
+}
+
+footer{
+	font-size: .85em;
+	color: #ffffff;
+	padding: 10px 10px 10px 0px;
+	text-align: center;
+}
+
+/* PROMO CODE */
+
+.promo{
+	background-repeat: no-repeat;
+	height: 245px;
+}
+
+.promo.one{
+	background-image: url(../images/specials_large_1.jpg);
+}
+
+.promo.two{
+	background-image: url(../images/specials_large_2.jpg);
+}
+
+.promo.three{
+	background-image: url(../images/specials_large_3.jpg);
+}
+
+/* CONTACT CODE */
+
+.contact{
+	background-repeat: no-repeat;
+	height: 27px;
+}
+
+.contact.one{
+	background-image: url(../images/mobile_phone.png);
+}
+
+.contact.two{
+	background-image: url(../images/email.png);
+}
+
+.contact.three{
+	background-image: url(../images/location_icon.png);
+}
+
+.contact.four{
+	background-image: url(../images/facebook.png);
+}
+
+.contact.five{
+	background-image: url(../images/twitter.png);
+}
+
+.contact.six{
+	background-image: url(../images/instagram.png);
+}
+
+/* THE TEAM */
+
+.team{
+	background-repeat: no-repeat;
+	height: 70px;
+}
+
+.team.one{
+	background-image: url(../images/xolani.png);
+}
+
+.team.two{
+	background-image: url(../images/momo.png);
+}
+
+.team.three{
+	background-image: url(../images/njabulo.png);
+}
+
+.team{
+	background-repeat: no-repeat;
+	height: 70px;
+}
+
+.first_team{
+	background-image: url(../images/xolani.png);
+	background-repeat: no-repeat;
+	background-position: 30px 0;
+}
+
+.second_team{
+	background-image: url(../images/momo.png);
+	background-repeat: no-repeat;
+	background-position: 30px 0;
+}
+
+.third_team{
+	background-image: url(../images/njabulo.png);
+	background-repeat: no-repeat;
+	background-position: 30px 0;
+}
+
+/*SOCIAL NETWORKS CODE*/
+.social_networks a{
+	width: 27px;
+	height: 27px;
+	float: left;
+	margin: 0 10px;
+}
+
+header a.social_facebook{
+	background-image: url(../images/facebook.png);
+}
+
+header a.social_twitter{
+	background-image: url(../images/twitter.png);
+}
+
+header a.social_instagram{
+	background-image: url(../images/instagram.png);
+}
+
+.fixed-clear{ clear: both; line-height: 1px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
